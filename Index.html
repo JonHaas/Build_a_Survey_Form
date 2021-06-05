@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+    
+    <form action="" id="survey-form">
+
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" name="name" id="name" required placeholder="First Last">
+    
+    <div>
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" name="email" id="email" required placeholder="you@domain.com">
+    </div>
+      
+    <div>
+      <label for="number" id="number-label">Number:</label>
+      <input type="number" name="number" id="number" min="0" max="10" placeholder="#">
+    </div>
+
+    <div>
+      <label for="dropdown">Dropdown:</label>
+      <select name="dropdown" id="dropdown">
+        <option value="This one">This One</option>
+        <option value="That one">That One</option>
+      </select>
+    </div>
+
+    <div>
+      <input type="radio" name="radio" id="radio1" value="1">
+      <label for="radio1">1</label>
+      <input type="radio" name="radio" id="radio2" value="2">
+      <label for="radio2">2</label>
+    </div>
+
+    <div>
+      <input type="checkbox" name="checkbox" id="checkbox-1" value="checkbox-1">
+      <label for="checkbox-1">Checkbox 1</label>
+      <input type="checkbox" name="checkbox" id="checkbox-2" value="checkbox-2">
+      <label for="checkbox-2">Checkbox 2</label>
+      <input type="checkbox" name="checkbox" id="checkbox-3" value="checkbox-3">
+      <label for="checkbox-3">Checkbox 3</label>
+    </div>
+
+    <div>
+      <label for="additional-comments">Additional-comments:</label>
+      <textarea name="additional-comments" id="additional-comments" cols="30" rows="10"></textarea>
+    </div>
+
+    <input id="submit" type="submit" value="submit">
+  </form>
+</body>
+</html>
